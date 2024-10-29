@@ -1,0 +1,23 @@
+body {
+    background-color: #6A89A7;
+}
+
+/* * {
+    color: whitesmoke;
+} */
+
+ul, ol {
+    color: beige;
+}
+
+div {
+    color: tan;
+}
+
+h2, h1 {
+    color: yellow;
+}
+
+.p-color {
+    color: bisque;
+}
