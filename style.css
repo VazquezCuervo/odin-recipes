@@ -21,3 +21,7 @@ h2, h1 {
 .p-color {
     color: bisque;
 }
+
+#main-heading {
+    text-align: center;
+}
