@@ -1,27 +1,50 @@
-body {
-    background-color: #6A89A7;
+* {
+    padding: 0;
+    margin: 0;
 }
 
-/* * {
-    color: whitesmoke;
-} */
+*,
+::befor,
+::after{
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #6A89A7;
+    border: 2px solid red;
+    padding: 15px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+
 
 ul, ol {
     color: beige;
+    border: 2px solid green;
+}
+
+ul {
+    list-style:;
 }
 
 div {
     color: tan;
+    border: 2px solid pink;
 }
 
 h2, h1 {
     color: yellow;
+    border: 2px solid yellow;
 }
 
 .p-color {
     color: bisque;
+    border: 2px solid black;
 }
 
 #main-heading {
     text-align: center;
+    /* border: 2px solid white; */
 }
